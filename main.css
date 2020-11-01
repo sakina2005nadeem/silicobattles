@@ -62,6 +62,7 @@ body {
 	text-align:center;
     float:center;
 	margin:auto;
+	margin-bottom:2vw;
 }
 
 .navb h1 {
@@ -107,11 +108,13 @@ body {
 
 .navb a:hover::after {
     width: 100%;
-}
+}*/
 
 .navb .bar a:hover{
-	color: var(--color4);
-}*/
+	background-color: rgba(240, 188, 50, 0.5);
+	border:2px solid var(--color4);
+	color:#000;
+}
 
 /*HOME*/
 .home{
