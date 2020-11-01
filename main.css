@@ -1,5 +1,6 @@
 :root{
-	--color1: #;
+	--color1: #fff;
+	--color2: rgba(150, 36, 42, 0.6);
 }
 
 /*Prerequisites*/
@@ -7,8 +8,7 @@
 *{
 	margin:0;
 	padding:o;
-	box-sizing:border-box;
-	outline:none;
+	box-sizing: border-box;
 }
 
 html{
@@ -22,6 +22,62 @@ body {
 
 /*LOADER*/
 
-/*INTRO*/
+/*HOME*/
+.home{
+	width: 100%;
+	height: 100%;
+	top:0;
+	right:0;
+	left:0;
+}
 
+.home::before{
+	position:absolute;
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center;
+	height:100%;
+	width:100%;
+	z-index:-1;
+	-webkit-animation: back 20s infinite;
+	animation: back 30s infinite;
+	content:"";
+}
+
+.home .intro{
+	padding-top: 25%;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.home h1{
+	color: var(--color1);
+	font-size: 60px;
+	background-color: var(--color2);
+	text-align: center;
+	padding: 3%;
+	font-family: 'IM Fell DW Pica', serif;
+}
+
+/*ANIMATIONS*/
+@keyframes back{
+	0%{
+		background-image: url("images/bg1.jpeg");
+	}
+	20%{
+		background-image: url("images/bg2.jpeg");
+	}
+	40%{
+		background-image: url("images/bg3.jpeg");
+	}
+	60%{
+		background-image: url("images/bg4.jpeg");
+	}
+	80%{
+		background-image: url("images/bg5.jpeg");
+	}
+	100%{
+		background-image: url("images/bg6.jpeg");
+	}
+}
 
