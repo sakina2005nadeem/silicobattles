@@ -3,6 +3,7 @@
 	--color2: rgba(235, 193, 84, 0.6);
 	--color3: #786430;
 	--color4: #f0bc32;
+	--color5: rgba(0,0,0,0.5);
 }
 
 /*Prerequisites*/
@@ -32,6 +33,7 @@ body {
 	z-index:999;
 	padding: 1vw 2vw;
 	transition: 0.6s;
+	background-color: var(--color5);
 }
 
 .navb h1 {
@@ -47,21 +49,18 @@ body {
 	padding-right: 3vw;
 }
 
-.disappear{
-	top:-200;
-}
-
 .navb .bar a{
 	float: right;
     display: block;
-	color: #000;
-	font-size: 1.1vw;
+	color: #fff;
+	font-size: 20px;
 	font-family: 'Poppins', sans-serif;
 	text-decoration: none;
-	padding: 0.5vw 1vw;
+	padding: 0vw 1vw;
 	margin-right: 0.5;
     position: relative;
-    transition: 0.5s;
+	transition: 0.5s;
+	text-transform: uppercase;
 }
 
 .navb a::after {
@@ -113,6 +112,7 @@ body {
 	padding-top: 25%;
 	padding-left: 10%;
 	padding-right: 10%;
+	padding-bottom: 19%;
 }
 
 .home h1{
@@ -122,6 +122,18 @@ body {
 	text-align: center;
 	padding: 3%;
 	font-family: 'IM Fell DW Pica', serif;
+}
+
+/*ABOUT*/
+.abt{
+	width: 100%;
+    padding-bottom: 7%;
+    padding-top: 5%;
+    background-image: linear-gradient( to left,#000, var(--color3));
+}
+
+.abt h1{
+
 }
 
 /*ANIMATIONS*/
