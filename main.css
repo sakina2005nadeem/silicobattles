@@ -297,7 +297,7 @@ p {
 	z-index:-1;
 }*/
 
-.teaser video{
+.teaser iframe{
     margin-top: 10px;
 	margin-bottom: 3%;
 	border: #fff solid 3px;
