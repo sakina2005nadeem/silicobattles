@@ -301,6 +301,35 @@ p {
     text-align: center;
 }*/
 
+
+/*MASCOT- NAME 'DAS JUNGE'*/
+
+.mascot {
+	width:96%;
+	background-image:url("images/bg.jpg");
+	background-size:cover;
+	background-repeat:none; 
+	margin:auto;
+	border: 2px solid #000;
+	margin-bottom:2vh;
+	border-radius:15px;
+}
+
+.mascot p{
+	font-size:24px;
+	color:var(--color9);
+	font-family:'Noto Serif', serif;
+	padding:2vh;
+	text-align:center;
+	margin-top:7vw;
+}
+
+.mascot img{
+	height:400px;
+	width:400px;
+	margin:2vw;
+}
+
 /*TEASER*/
 
 
@@ -349,7 +378,7 @@ p {
 }
 
 .teaser p{
-	font-size:25px;
+	font-size:23px;
 	color:rgb(255,251,171);
 	font-family:'Noto Serif', serif;
 	padding:2vh;
