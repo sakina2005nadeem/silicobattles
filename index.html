@@ -20,12 +20,40 @@
     <div class="head">
 	    <h1> <b>National Secular Party </b></h1>
 	</div>
+	
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">PAY HERE!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+	  <img src="images/img.jpg" style="width:450px; height:200px;">
+	  <br>
+        Fulfill your duty and glory shall be yours! 
+		<br>
+		Pay to see your country prosper!
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">PAY NOW</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--navbar-->
 
     <div class="navb">
         <div class="bar">
             <a href="#home"><b>Message from the Führer</b></a>
-			<a href="#abt"><b>Contribute</b></a>
-			<a href="#abt"><b>Join the effort</b></a>
+			<a href="#abt" data-toggle="modal" data-target="#exampleModal"><b>Contribute</b></a>
+			<a href="#join"><b>Join the effort</b></a>
         </div>
     </div>
 	
@@ -69,7 +97,7 @@
 
     <center>
 	<div class="teaser" id="teaser">
-            <h1> HAVE A LOOK! </h1>
+            <h1> A brief glimpse </h1>
                 <video controls>
                 <source src="Teaser.mp4" type="video/mp4">
                 </video>
@@ -90,10 +118,58 @@
         <div class="col-md-2"></div>
     </div>
     </div>
+	
+	<!--JOIN NOW-->
+	<div class="join" id="join">
+	<div class="row">
+	
+	<div class="col-md-1"></div>
+	
+	<div class="col-md-4">
+	<center><p>Join the army! <br>Join the brethren! </p></center>
+	</div>
+	
+    <div class="col-md-1"></div>
+	<div class="col-md-6">
+	<form>
+  <div class="form-group">
+    <label for="exampleFormControlInput1"><b>Name</b></label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Write your name here">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlSelect1"><b> City</b></label>
+    <select class="form-control" id="exampleFormControlSelect1">
+      <option>Choose your city</option>
+      <option>Munich</option>
+      <option>Berlin</option>
+      <option>Frankfurt</option>
+      <option>Other</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlSelect2"><b>Age </b></label>
+    <select multiple class="form-control" id="exampleFormControlSelect2">
+      <option>18-25</option>
+      <option>25-30</option>
+      <option>30-35</option>
+      <option>35-40</option>
+      <option>45-50</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1"><b>Your reason for joining</b></label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+  <button type="button" class="btn btn-danger">JOIN NOW! </button>
+</form>
+</div>
+
+</div>
+</div>
 
 <!--Footer-->
 <div class="footer">
-    <h1>Gott schütze Deutschland</h1>
+    <h1>Gott schütze Deutschland!!!</h1>
 </div>
 
 

@@ -9,3 +9,9 @@ jQuery(document).on("scroll", function () {
         $(".disappear").css("top","-200");
     }
 }); 
+
+// modal
+
+$('#myModal').on('shown.bs.modal', function () {
+  $('#myInput').trigger('focus')
+})
