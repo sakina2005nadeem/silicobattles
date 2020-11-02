@@ -31,6 +31,10 @@ body {
 	overflow-x: hidden;
 }
 
+.mainbod{
+	display: none;
+}
+
 /*MODAL*/
 
 .modal-header {
@@ -64,7 +68,6 @@ body {
 .btn-primary:hover {
 	background-color:var(--color4);
 	border-color:var(--color4);
-	font-family:;
 }
 
 .modal-body{
@@ -155,6 +158,30 @@ body {
 	background-color: rgba(240, 188, 50, 0.5);
 	border:2px solid var(--color4);
 	color:#000;
+}
+
+/*LOADER*/
+.load {
+    height: 100%;
+    width: 100%;
+    background-color: #D9CCAB;
+    z-index: 999999;
+    position: fixed;
+    transition: 1s cubic-bezier(0, 0, 0, 1.03);
+}
+
+.loader-wheel {
+    display: block;
+    position: relative;
+    background-image: url(images/logo.png);
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 1000px;
+	width: 1000px;
+	z-index: 9999999;
+	animation: scale 1.5s linear infinite;
+	-webkit-animation: scale 1.5s linear infinite;
 }
 
 /*HOME*/
@@ -490,3 +517,11 @@ form {
 	
 }
 
+@keyframes scale {
+    0%, 100% {
+        transform: scale(0.9);
+    }
+    50% {
+        transform: scale(1);
+    }
+}

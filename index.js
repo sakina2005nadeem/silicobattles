@@ -15,3 +15,13 @@ jQuery(document).on("scroll", function () {
 $('#myModal').on('shown.bs.modal', function () {
   $('#myInput').trigger('focus')
 })
+
+//LOADER
+var myVar;
+   function myFunction() {
+      myVar = setTimeout(showPage, 3000);
+   }
+   function showPage() {
+      document.getElementById("load").style.display = "none";
+      document.getElementById("mainbod").style.display = "block";
+   } 
