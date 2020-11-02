@@ -174,8 +174,8 @@ body {
     display: block;
     position: relative;
     background-image: url(images/logo.png);
-    background-size: 60%;
-    background-position: center;
+    background-size: 40%;
+    background-position: top;
     background-repeat: no-repeat;
     height: 1000px;
 	width: 1000px;
@@ -327,7 +327,7 @@ p {
 .teaser iframe{
     margin-top: 10px;
 	margin-bottom: 3%;
-	border: #fff solid 3px;
+	border: #fff double 3px;
 	width:90%;
 }
 
@@ -348,6 +348,14 @@ p {
     color: #fff;
 }
 
+.teaser p{
+	font-size:25px;
+	color:rgb(255,251,171);
+	font-family:'Noto Serif', serif;
+	padding:2vh;
+	text-align:center;
+}
+
 /*POSTERS*/
 .poster{
 	width: 96%;
@@ -357,7 +365,7 @@ p {
 	background-size:cover;
 	background-repeat:none;
 	margin:auto;
-	border:2px solid #000;
+	border:2px double #000;
 	margin-bottom:2vh;
 	border-radius:15px;
 }
@@ -374,6 +382,7 @@ p {
 	width: 500px;
 	height: 570px;
 	margin-bottom:2vh;
+	margin-left:3vh;
 }
 
 /*FOOTER*/
@@ -519,7 +528,7 @@ form {
 
 @keyframes scale {
     0%, 100% {
-        transform: scale(0.9);
+        transform: scale(0.95);
     }
     50% {
         transform: scale(1);
