@@ -357,7 +357,7 @@ p {
 .audio h1 {
 	font-family:'Bungee Inline', cursive;
 	font-size:5vw;
-	color:var(color9);
+	color:var(--color9);
 	-webkit-text-stroke-width:1px;
 	-webkit-text-stroke-color:rgb(255,251,171);
     text-align:center;
@@ -367,6 +367,7 @@ p {
 	border:1px solid #000;
 	border-radius:25px;
 	width:400px;
+	color:var(--color9);
 }
 
 /*TEASER*/
