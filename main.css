@@ -24,9 +24,8 @@ html{
 }
 
 body {
-	background-color: var(--color8);
+	background-color: #000;
 	background-image:url("images/bgfinal2.jpg");
-
 	background-repeat:none; 
 	overflow-x: hidden;
 }
@@ -338,6 +337,7 @@ p {
 	height:400px;
 	width:400px;
 	margin:2vw;
+	float:center;
 }
 
 
